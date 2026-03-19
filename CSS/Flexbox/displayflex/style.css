@@ -1,10 +1,11 @@
-.container div{
+.container div {
     width: 100px;
     height: 100px;
 }
 
 .red {
     background: red;
+    height: 180px !important;
 }
 .green {
     background: green;
@@ -15,7 +16,13 @@
 }
 
 .container {
+    width: 200px;
+    height: 500px;
     display: flex;
-    flex-direction:row;
-    justify-content:space-evenly;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+
 }
